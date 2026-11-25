@@ -1,8 +1,6 @@
 # Hospital & Healthcare Information Management System
 
-**DBMS Mini / Capstone Project**  
-Prepared by: Shruti Rajour (2501630022), Shivangi (2501630013)
-
+Deploy Link : https://hospital-management-system-drab-two.vercel.app
 ## Project Structure
 
 - `sql/schema.sql` — DDL for all 9 normalized tables (3NF), constraints, 8 indexes, and 2 views (`v_patient_records`, `v_revenue_analysis`)
@@ -13,6 +11,14 @@ Prepared by: Shruti Rajour (2501630022), Shivangi (2501630013)
 - `make_er_diagram.py` — Generates `hospital_er.svg` ER diagram
 - `webapp/server.py` — Python standard-library HTTP server + JSON API
 - `webapp/static/` — Vanilla HTML/CSS/JS single-page application
+
+<img width="752" height="321" alt="image" src="https://github.com/user-attachments/assets/18c42f50-0b24-4dfc-ba32-87b2017ca159" />
+<img width="752" height="298" alt="image" src="https://github.com/user-attachments/assets/0fde0b36-cfdc-48c8-9206-a0d90aab1fc8" />
+<img width="751" height="325" alt="image" src="https://github.com/user-attachments/assets/07f0776d-65e5-4e83-b6e1-3a1bba5df590" />
+<img width="751" height="299" alt="image" src="https://github.com/user-attachments/assets/3ce861bf-1cdc-4df5-97e7-adab9b75e010" />
+<img width="751" height="317" alt="image" src="https://github.com/user-attachments/assets/31dfd777-dc88-44ff-9796-908b922fdb01" />
+<img width="751" height="325" alt="image" src="https://github.com/user-attachments/assets/efb9541c-d09c-4dd5-bcb2-7ccdbf62cdc9" />
+<img width="751" height="297" alt="image" src="https://github.com/user-attachments/assets/2c876115-40a0-48d8-8754-ce83e1eeed90" />
 
 ## How to Run
 
