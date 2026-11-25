@@ -16,7 +16,11 @@ SQL_DIR = os.path.join(BASE_DIR, "sql")
 SCHEMA_PATH = os.path.join(SQL_DIR, "schema.sql")
 SEED_PATH = os.path.join(SQL_DIR, "seed.sql")
 QUERIES_PATH = os.path.join(SQL_DIR, "queries.sql")
-DEFAULT_DB_PATH = os.path.join(BASE_DIR, "hospital.db")
+DEFAULT_DB_PATH = (
+    "/tmp/hospital.db"
+    if os.environ.get("VERCEL")
+    else os.path.join(BASE_DIR, "hospital.db")
+)
 
 
 def load_queries(path=QUERIES_PATH):
@@ -66,17 +70,17 @@ DEPARTMENT_FALLBACK_FEES = {
 }
 
 
-def get_connection(db_path=DEFAULT_DB_PATH):
+def get_connection(db_path=None):
     """Open a SQLite connection with foreign key enforcement turned on."""
-    conn = sqlite3.connect(db_path)
+    conn = sqlite3.connect(db_path or DEFAULT_DB_PATH)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON;")
     return conn
 
 
-def init_db(db_path=DEFAULT_DB_PATH, seed=True):
+def init_db(db_path=None, seed=True):
     """Create schema (tables, indexes, views) and load seed data if empty."""
-    conn = get_connection(db_path)
+    conn = get_connection(db_path or DEFAULT_DB_PATH)
     try:
         with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
             conn.executescript(f.read())
