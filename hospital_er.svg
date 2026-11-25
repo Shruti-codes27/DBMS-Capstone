@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="860" viewBox="0 0 1120 860">
+  <rect width="1120" height="860" fill="#fbfcfe"/>
+  <text x="560" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Hospital &amp; Healthcare Information Management System - ER Model</text>
+  <g stroke="#64748b" stroke-width="1.5" fill="none">
+    <path d="M 155 188 L 155 235"/>
+    <path d="M 275 300 L 345 300 L 345 430 L 415 430"/>
+    <path d="M 275 645 L 345 645 L 345 470 L 415 470"/>
+    <path d="M 675 450 L 755 450"/>
+    <path d="M 755 125 L 755 755"/>
+    <path d="M 755 125 L 820 125"/>
+    <path d="M 755 275 L 820 275"/>
+    <path d="M 955 340 L 955 385"/>
+    <path d="M 755 585 L 820 585"/>
+    <path d="M 755 755 L 820 755"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#334155">
+    <text x="163" y="205">1</text><text x="163" y="228">N</text>
+    <text x="285" y="292">1</text><text x="398" y="422">N</text>
+    <text x="285" y="638">1</text><text x="398" y="490">N</text>
+    <text x="688" y="442">1</text>
+    <text x="803" y="118">1</text>
+    <text x="803" y="268">1</text>
+    <text x="963" y="356">1</text><text x="963" y="378">N</text>
+    <text x="803" y="578">N</text>
+    <text x="803" y="748">N</text>
+  </g>
+<g transform="translate(35,60)">
+  <rect width="240" height="128" rx="8" fill="#ffffff" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect width="240" height="30" rx="8" fill="#e6eff8" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect y="24" width="240" height="6" fill="#e6eff8"/>
+  <text x="120.0" y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#183b61">DEPARTMENTS</text>
+  <text x="12" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1d5fa3">PK</text>
+  <text x="42" y="50" font-family="Consolas, monospace" font-size="12" font-weight="700" text-decoration="underline" fill="#1e293b">dept_id</text>
+  <text x="42" y="72" font-family="Consolas, monospace" font-size="12" fill="#475569">dept_name</text>
+  <text x="42" y="94" font-family="Consolas, monospace" font-size="12" fill="#475569">location</text>
+  <text x="42" y="116" font-family="Consolas, monospace" font-size="12" fill="#475569">phone</text>
+</g>
+<g transform="translate(35,235)">
+  <rect width="240" height="128" rx="8" fill="#ffffff" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect width="240" height="30" rx="8" fill="#e6eff8" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect y="24" width="240" height="6" fill="#e6eff8"/>
+  <text x="120.0" y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#183b61">DOCTORS</text>
+  <text x="12" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1d5fa3">PK</text>
+  <text x="42" y="50" font-family="Consolas, monospace" font-size="12" font-weight="700" text-decoration="underline" fill="#1e293b">doctor_id</text>
+  <text x="42" y="72" font-family="Consolas, monospace" font-size="12" fill="#475569">doctor_name</text>
+  <text x="42" y="94" font-family="Consolas, monospace" font-size="12" fill="#475569">specialization</text>
+  <text x="12" y="116" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#b45309">FK</text>
+  <text x="42" y="116" font-family="Consolas, monospace" font-size="12" fill="#334155">dept_id</text>
+</g>
+<g transform="translate(35,550)">
+  <rect width="240" height="172" rx="8" fill="#ffffff" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect width="240" height="30" rx="8" fill="#e6eff8" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect y="24" width="240" height="6" fill="#e6eff8"/>
+  <text x="120.0" y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#183b61">PATIENTS</text>
+  <text x="12" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1d5fa3">PK</text>
+  <text x="42" y="50" font-family="Consolas, monospace" font-size="12" font-weight="700" text-decoration="underline" fill="#1e293b">patient_id</text>
+  <text x="42" y="72" font-family="Consolas, monospace" font-size="12" fill="#475569">full_name</text>
+  <text x="42" y="94" font-family="Consolas, monospace" font-size="12" fill="#475569">dob</text>
+  <text x="42" y="116" font-family="Consolas, monospace" font-size="12" fill="#475569">gender</text>
+  <text x="42" y="138" font-family="Consolas, monospace" font-size="12" fill="#475569">phone</text>
+  <text x="42" y="160" font-family="Consolas, monospace" font-size="12" fill="#475569">email</text>
+</g>
+<g transform="translate(415,385)">
+  <rect width="260" height="150" rx="8" fill="#ffffff" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect width="260" height="30" rx="8" fill="#e6eff8" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect y="24" width="260" height="6" fill="#e6eff8"/>
+  <text x="130.0" y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#183b61">APPOINTMENTS</text>
+  <text x="12" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1d5fa3">PK</text>
+  <text x="42" y="50" font-family="Consolas, monospace" font-size="12" font-weight="700" text-decoration="underline" fill="#1e293b">appt_id</text>
+  <text x="12" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#b45309">FK</text>
+  <text x="42" y="72" font-family="Consolas, monospace" font-size="12" fill="#334155">patient_id</text>
+  <text x="12" y="94" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#b45309">FK</text>
+  <text x="42" y="94" font-family="Consolas, monospace" font-size="12" fill="#334155">doctor_id</text>
+  <text x="42" y="116" font-family="Consolas, monospace" font-size="12" fill="#475569">appt_date</text>
+  <text x="42" y="138" font-family="Consolas, monospace" font-size="12" fill="#475569">status</text>
+</g>
+<g transform="translate(820,60)">
+  <rect width="265" height="128" rx="8" fill="#ffffff" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect width="265" height="30" rx="8" fill="#e6eff8" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect y="24" width="265" height="6" fill="#e6eff8"/>
+  <text x="132.5" y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#183b61">MEDICAL_HISTORY</text>
+  <text x="12" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1d5fa3">PK</text>
+  <text x="42" y="50" font-family="Consolas, monospace" font-size="12" font-weight="700" text-decoration="underline" fill="#1e293b">history_id</text>
+  <text x="12" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#b45309">FK</text>
+  <text x="42" y="72" font-family="Consolas, monospace" font-size="12" fill="#334155">appt_id</text>
+  <text x="42" y="94" font-family="Consolas, monospace" font-size="12" fill="#475569">condition</text>
+  <text x="42" y="116" font-family="Consolas, monospace" font-size="12" fill="#475569">diagnosed_on</text>
+</g>
+<g transform="translate(820,225)">
+  <rect width="265" height="106" rx="8" fill="#ffffff" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect width="265" height="30" rx="8" fill="#e6eff8" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect y="24" width="265" height="6" fill="#e6eff8"/>
+  <text x="132.5" y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#183b61">PRESCRIPTIONS</text>
+  <text x="12" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1d5fa3">PK</text>
+  <text x="42" y="50" font-family="Consolas, monospace" font-size="12" font-weight="700" text-decoration="underline" fill="#1e293b">presc_id</text>
+  <text x="12" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#b45309">FK</text>
+  <text x="42" y="72" font-family="Consolas, monospace" font-size="12" fill="#334155">appt_id</text>
+  <text x="42" y="94" font-family="Consolas, monospace" font-size="12" fill="#475569">issued_on</text>
+</g>
+<g transform="translate(820,385)">
+  <rect width="265" height="150" rx="8" fill="#ffffff" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect width="265" height="30" rx="8" fill="#e6eff8" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect y="24" width="265" height="6" fill="#e6eff8"/>
+  <text x="132.5" y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#183b61">PRESCRIPTION_ITEMS</text>
+  <text x="12" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1d5fa3">PK</text>
+  <text x="42" y="50" font-family="Consolas, monospace" font-size="12" font-weight="700" text-decoration="underline" fill="#1e293b">item_id</text>
+  <text x="12" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#b45309">FK</text>
+  <text x="42" y="72" font-family="Consolas, monospace" font-size="12" fill="#334155">presc_id</text>
+  <text x="42" y="94" font-family="Consolas, monospace" font-size="12" fill="#475569">medicine</text>
+  <text x="42" y="116" font-family="Consolas, monospace" font-size="12" fill="#475569">dosage</text>
+  <text x="42" y="138" font-family="Consolas, monospace" font-size="12" fill="#475569">duration_days</text>
+</g>
+<g transform="translate(820,535)">
+  <rect width="265" height="150" rx="8" fill="#ffffff" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect width="265" height="30" rx="8" fill="#e6eff8" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect y="24" width="265" height="6" fill="#e6eff8"/>
+  <text x="132.5" y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#183b61">DIAGNOSTIC_TESTS</text>
+  <text x="12" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1d5fa3">PK</text>
+  <text x="42" y="50" font-family="Consolas, monospace" font-size="12" font-weight="700" text-decoration="underline" fill="#1e293b">test_id</text>
+  <text x="12" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#b45309">FK</text>
+  <text x="42" y="72" font-family="Consolas, monospace" font-size="12" fill="#334155">appt_id</text>
+  <text x="42" y="94" font-family="Consolas, monospace" font-size="12" fill="#475569">test_name</text>
+  <text x="42" y="116" font-family="Consolas, monospace" font-size="12" fill="#475569">result</text>
+  <text x="42" y="138" font-family="Consolas, monospace" font-size="12" fill="#475569">tested_on</text>
+</g>
+<g transform="translate(820,700)">
+  <rect width="265" height="150" rx="8" fill="#ffffff" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect width="265" height="30" rx="8" fill="#e6eff8" stroke="#3b6ea5" stroke-width="1.6"/>
+  <rect y="24" width="265" height="6" fill="#e6eff8"/>
+  <text x="132.5" y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#183b61">BILLS</text>
+  <text x="12" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1d5fa3">PK</text>
+  <text x="42" y="50" font-family="Consolas, monospace" font-size="12" font-weight="700" text-decoration="underline" fill="#1e293b">bill_id</text>
+  <text x="12" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#b45309">FK</text>
+  <text x="42" y="72" font-family="Consolas, monospace" font-size="12" fill="#334155">appt_id</text>
+  <text x="42" y="94" font-family="Consolas, monospace" font-size="12" fill="#475569">amount</text>
+  <text x="42" y="116" font-family="Consolas, monospace" font-size="12" fill="#475569">paid_amount</text>
+  <text x="42" y="138" font-family="Consolas, monospace" font-size="12" fill="#475569">bill_date</text>
+</g>
+  <text x="35" y="838" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#475569"><tspan font-weight="700" fill="#1d5fa3">PK</tspan> primary key  |  <tspan font-weight="700" fill="#b45309">FK</tspan> foreign key  |  1 : N one-to-many  |  1 : 1 one-to-one</text>
+</svg>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediCare — Hospital &amp; Healthcare Information Management System</title>
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/views.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-badge">M</div>
+        <div>
+          <div class="brand-title">MediCare</div>
+          <div class="brand-sub">HOSPITAL SYSTEM</div>
+        </div>
+      </div>
+
+      <nav class="nav-list" id="sidebar-nav">
+        <a href="#/dashboard" class="nav-item" data-route="dashboard">
+          <span class="nav-icon" data-icon="dashboard"></span>
+          <span>Dashboard</span>
+        </a>
+        <a href="#/patients" class="nav-item" data-route="patients">
+          <span class="nav-icon" data-icon="patients"></span>
+          <span>Patients</span>
+        </a>
+        <a href="#/doctors" class="nav-item" data-route="doctors">
+          <span class="nav-icon" data-icon="doctors"></span>
+          <span>Doctors</span>
+        </a>
+        <a href="#/appointments" class="nav-item" data-route="appointments">
+          <span class="nav-icon" data-icon="appointments"></span>
+          <span>Appointments</span>
+          <span class="nav-badge" id="nav-scheduled-badge">0</span>
+        </a>
+        <a href="#/billing" class="nav-item" data-route="billing">
+          <span class="nav-icon" data-icon="billing"></span>
+          <span>Billing</span>
+        </a>
+        <a href="#/analytics" class="nav-item" data-route="analytics">
+          <span class="nav-icon" data-icon="analytics"></span>
+          <span>Analytics</span>
+        </a>
+        <a href="#/database" class="nav-item" data-route="database">
+          <span class="nav-icon" data-icon="database"></span>
+          <span>Database &amp; SQL</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div>DBMS Capstone Project</div>
+        <div class="muted">SQLite + Python + Vanilla JS</div>
+      </div>
+    </aside>
+
+    <div class="main-area">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="menu-toggle" id="menu-toggle" type="button" title="Toggle menu">☰</button>
+          <div>
+            <h1 class="page-title" id="page-title">Dashboard</h1>
+            <div class="page-subtitle" id="page-subtitle">Hospital overview</div>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <div class="search-box">
+            <span class="search-icon" data-icon="search"></span>
+            <input type="text" id="global-search" placeholder="Search patients, doctors..." autocomplete="off" />
+            <div class="search-dropdown hidden" id="search-results"></div>
+          </div>
+
+          <div class="user-pill">
+            <div class="user-avatar">S</div>
+            <div>
+              <div class="user-name">Dr. Shruti</div>
+              <div class="user-role">Administrator</div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="content" id="app-content">
+        <div class="loading-box">Loading...</div>
+      </main>
+    </div>
+  </div>
+
+  <div id="modal-root" class="modal-backdrop hidden"></div>
+  <div id="toast-root" class="toast-container"></div>
+
+  <script type="module" src="/js/router.js"></script>
+</body>
+</html>
